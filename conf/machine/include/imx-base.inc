@@ -107,7 +107,9 @@ PREFERRED_PROVIDER_virtual/libgles2_mx6sl ?= "mesa"
 PREFERRED_PROVIDER_virtual/libgl_mx6q ?= "gpu-viv-bin-mx6q"
 PREFERRED_PROVIDER_virtual/libgl_mx6dl ?= "gpu-viv-bin-mx6q"
 PREFERRED_PROVIDER_virtual/libgl_mx6sl ?= "mesa"
-
+PREFERRED_PROVIDER_virtual/wayland-egl_mx6q ?= "gpu-viv-bin-mx6q"
+PREFERRED_PROVIDER_virtual/wayland-egl_mx6dl ?= "gpu-viv-bin-mx6q"
+PREFERRED_PROVIDER_virtual/wayland-egl_mx6sl ?= "mesa"
 PREFERRED_PROVIDER_virtual/kernel_mx3 ?= "linux-fslc"
 
 SDCARD_ROOTFS ?= "${DEPLOY_DIR_IMAGE}/${IMAGE_NAME}.rootfs.ext3"
