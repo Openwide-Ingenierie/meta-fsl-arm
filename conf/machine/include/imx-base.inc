@@ -130,6 +130,12 @@ PREFERRED_PROVIDER_virtual/libgl_mx6sx ?= "imx-gpu-viv"
 PREFERRED_PROVIDER_virtual/libgl_mx6sl ?= "mesa"
 PREFERRED_PROVIDER_virtual/libgl_mx6ul ?= "mesa"
 
+PREFERRED_PROVIDER_virtual/wayland-egl_mx6q ?= "imx-gpu-viv"
+PREFERRED_PROVIDER_virtual/wayland-egl_mx6dl ?= "imx-gpu-viv"
+PREFERRED_PROVIDER_virtual/wayland-egl_mx6sx ?= "imx-gpu-viv"
+PREFERRED_PROVIDER_virtual/wayland-egl_mx6sl ?= "mesa"
+PREFERRED_PROVIDER_virtual/wayland-egl_mx6ul ?= "mesa"
+
 PREFERRED_PROVIDER_virtual/libg2d_mx6 ?= "imx-gpu-viv"
 PREFERRED_PROVIDER_virtual/libg2d_mx6ul = ""
 
